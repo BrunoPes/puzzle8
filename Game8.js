@@ -1,7 +1,6 @@
 let ansVet = [];
 let startState = [];
 let endState = [];
-let ja = 0;
 const directions = ["u", "d", "l", "r"];
 
 function node(state, parent) {
