@@ -160,7 +160,7 @@ dfs = node => {
 
         for(let i=(answer.length-1); i >= 0; i--) {
             aux = answer[i];
-            console.log("Passo " + (answer.length-i+1));
+            console.log("Passo " + (answer.length-i));
             aux && logMatrix(aux.state);
         }
         return 0;
